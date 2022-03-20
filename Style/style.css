@@ -1,0 +1,39 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.jumbotron {
+    background-image: url("header.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+  }
+
+.jumbotron h1 {
+    color: #2d5369;
+} 
+  
+.jumbotron p {
+    color: rgba(37, 36, 36, 0.685);
+	font-size: 2rem;
+	line-height: 1.5; 
+}
+
+.well {
+    background-color: rgba(236, 219, 163, 0.445);
+}
+.well p {
+    color: rgba(39, 27, 1, 0.89);
+	font-size: 1.6rem;
+	line-height: 1.5; 
+  }
+
+.panel {
+    background-color: rgba(219, 219, 219, 0.589);
+}
+
+.panel > .panel-heading {
+    background-color: rgba(37, 36, 36, 0.685);
+}
